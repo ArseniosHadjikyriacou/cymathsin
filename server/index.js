@@ -246,17 +246,17 @@ const SidebarUrlLink = styled.a`
 function Navbar() {
   const [sidebar, setSitebar] = useState(false);
   return /* @__PURE__ */ jsx(Fragment, { children: /* @__PURE__ */ jsxs(Nav, { children: [
-    /* @__PURE__ */ jsxs(NavLinkImg, { to: "/", onClick: () => {
+    /* @__PURE__ */ jsxs(NavLinkImg, { to: "/cymathsin/", onClick: () => {
       setSitebar(false);
     }, children: [
       /* @__PURE__ */ jsx(StyledLogo, { src: graph, alt: "graph" }),
       /* @__PURE__ */ jsx(StyledLogo, { src: logo, alt: "logo" })
     ] }),
     /* @__PURE__ */ jsxs(NavMenu, { children: [
-      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/about", children: "About Us" }),
-      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/news", children: "News" }),
-      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/events", children: "Events" }),
-      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/contact", children: "Contact Us" })
+      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/cymathsin/about", children: "About Us" }),
+      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/cymathsin/news", children: "News" }),
+      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/cymathsin/events", children: "Events" }),
+      /* @__PURE__ */ jsx(NavLinkTxt, { to: "/cymathsin/contact", children: "Contact Us" })
     ] }),
     /* @__PURE__ */ jsx(ThreeBars, { onClick: () => {
       setSitebar((prev) => !prev);
@@ -265,16 +265,16 @@ function Navbar() {
       /* @__PURE__ */ jsx(SidebarClose, { children: /* @__PURE__ */ jsx(CloseIconWrapper, { onClick: () => {
         setSitebar((prev) => !prev);
       }, children: /* @__PURE__ */ jsx(CloseIcon, {}) }) }),
-      /* @__PURE__ */ jsx(SidebarLink, { to: "/about", onClick: () => {
+      /* @__PURE__ */ jsx(SidebarLink, { to: "/cymathsin/about", onClick: () => {
         setSitebar((prev) => !prev);
       }, children: /* @__PURE__ */ jsx(SidebarLabel, { children: "About Us" }) }),
-      /* @__PURE__ */ jsx(SidebarLink, { to: "/news", onClick: () => {
+      /* @__PURE__ */ jsx(SidebarLink, { to: "/cymathsin/news", onClick: () => {
         setSitebar((prev) => !prev);
       }, children: /* @__PURE__ */ jsx(SidebarLabel, { children: "News" }) }),
-      /* @__PURE__ */ jsx(SidebarLink, { to: "/events", onClick: () => {
+      /* @__PURE__ */ jsx(SidebarLink, { to: "/cymathsin/events", onClick: () => {
         setSitebar((prev) => !prev);
       }, children: /* @__PURE__ */ jsx(SidebarLabel, { children: "Events" }) }),
-      /* @__PURE__ */ jsx(SidebarLink, { to: "/contact", onClick: () => {
+      /* @__PURE__ */ jsx(SidebarLink, { to: "/cymathsin/contact", onClick: () => {
         setSitebar((prev) => !prev);
       }, children: /* @__PURE__ */ jsx(SidebarLabel, { children: "Contact Us" }) }),
       /* @__PURE__ */ jsx(SidebarLogo, { children: /* @__PURE__ */ jsx(StyledLogo, { src: logo, alt: "logo" }) }),
@@ -535,7 +535,7 @@ const route5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: contact,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/cymathsin/assets/entry.client-Q4bsPDhU.js", "imports": ["/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/cymathsin/assets/root-gSQcvXDv.js", "imports": ["/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/with-props-B7a-wcBP.js"], "css": ["/cymathsin/assets/root-D7f0zPum.css"] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/home-CSDFzGux.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "about", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/about-CWUrhQbk.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/news": { "id": "routes/news", "parentId": "root", "path": "news", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/news-oQgFMNsg.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/events": { "id": "routes/events", "parentId": "root", "path": "events", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/events-Q7ug899Y.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/contact-oWqiOXL-.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] } }, "url": "/cymathsin/assets/manifest-7fb48435.js", "version": "7fb48435" };
+const serverManifest = { "entry": { "module": "/cymathsin/assets/entry.client-Q4bsPDhU.js", "imports": ["/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/cymathsin/assets/root-hK6chZvV.js", "imports": ["/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/with-props-B7a-wcBP.js"], "css": ["/cymathsin/assets/root-D7f0zPum.css"] }, "routes/home": { "id": "routes/home", "parentId": "root", "path": "/cymathsin/", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/home-CSDFzGux.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/about": { "id": "routes/about", "parentId": "root", "path": "/cymathsin/about", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/about-CWUrhQbk.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/news": { "id": "routes/news", "parentId": "root", "path": "/cymathsin/news", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/news-oQgFMNsg.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/events": { "id": "routes/events", "parentId": "root", "path": "/cymathsin/events", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/events-Q7ug899Y.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] }, "routes/contact": { "id": "routes/contact", "parentId": "root", "path": "/cymathsin/contact", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/cymathsin/assets/contact-oWqiOXL-.js", "imports": ["/cymathsin/assets/with-props-B7a-wcBP.js", "/cymathsin/assets/chunk-IR6S3I6Y-e5w63GhA.js", "/cymathsin/assets/dummyText-PbTwWK4X.js"], "css": [] } }, "url": "/cymathsin/assets/manifest-330504a3.js", "version": "330504a3" };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
@@ -554,15 +554,15 @@ const routes = {
   "routes/home": {
     id: "routes/home",
     parentId: "root",
-    path: void 0,
-    index: true,
+    path: "/cymathsin/",
+    index: void 0,
     caseSensitive: void 0,
     module: route1
   },
   "routes/about": {
     id: "routes/about",
     parentId: "root",
-    path: "about",
+    path: "/cymathsin/about",
     index: void 0,
     caseSensitive: void 0,
     module: route2
@@ -570,7 +570,7 @@ const routes = {
   "routes/news": {
     id: "routes/news",
     parentId: "root",
-    path: "news",
+    path: "/cymathsin/news",
     index: void 0,
     caseSensitive: void 0,
     module: route3
@@ -578,7 +578,7 @@ const routes = {
   "routes/events": {
     id: "routes/events",
     parentId: "root",
-    path: "events",
+    path: "/cymathsin/events",
     index: void 0,
     caseSensitive: void 0,
     module: route4
@@ -586,7 +586,7 @@ const routes = {
   "routes/contact": {
     id: "routes/contact",
     parentId: "root",
-    path: "contact",
+    path: "/cymathsin/contact",
     index: void 0,
     caseSensitive: void 0,
     module: route5
